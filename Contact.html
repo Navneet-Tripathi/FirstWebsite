@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+      <meta charset="utf-8">
+	  <title>Contact me Page</title>
+   </head>
+   
+   <body>
+      <h2>CONTACT INFORMATION</h2>
+	  <p><em>Hello I am <strong>Navneet Tripathi</strong> below are given my contact information : </em></p>
+	  <em>My Address<br>My Contact Information<br>My E-mail Address</em>
+	  <hr>
+	  <h3>You can write your message below : </h3>
+	  <!-- USING html form TO TAKE USER INPUT -->
+	  <form action="mail:tnavneet321@gmail.com" enctype="text/plain" method="post">
+	     <!-- LABEL TO TYPE FULL NAME OF THE VISITOR -->
+	     <label for="FullName">Your Full Name : </label>
+		 <input type="text" id="FullName"><br>
+		 
+		 <!-- LABEL TO TYPE EMAIL ADDRESS OF THE VISITOR -->
+		 <label for="EmailAddress">Your Email Address : </label>
+		 <input type="email" id="EmailAddress"><br>
+		 
+		 <!-- LABEL TO TYPE MESSAGE OF THE VISITOR -->
+		 <label for="MessageField">Write Your Message : </label><br>
+		 <textarea rows="10" columns="30"></textarea><br>
+		 
+		 <!-- CREATING A SUBMIT BUTTON -->
+		 <input type="submit">
+	  </form>
+   </body>
+</html>
